@@ -23,6 +23,10 @@ urlpatterns = [
     path('home/',views.home,name='home'),
     path('about/',views.about,name='about'),
     path('contact/',views.contact,name='contact'),
-    path('add/',views.forms1,name='add_data')
+    path('add/',views.forms1,name='add'),
+    path('add_form/',views.student_form_dj,name='dj_form'),
+    path('login/',views.user_login,name='login'),
+    path('dashboard/',views.dashboard,name='dashboard'),
+    path('logout/',views.user_logout,name='logout')
 ]
 
